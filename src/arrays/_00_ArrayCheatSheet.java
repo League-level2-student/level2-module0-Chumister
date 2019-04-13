@@ -22,14 +22,20 @@ public class _00_ArrayCheatSheet {
 
 		// 7. use a for loop to make every value of the integer array a random number
 		for (int i = 0; i < gers.length; i++) {
-			gers[i] =;
+			Random rand = new Random();
+			int randomNum = rand.nextInt();
+			gers[i] = randomNum;
 		}
 		// 8. without printing the entire array, print only the smallest number in the
 		// array
-		
+		int[] gerstwo = new int[50];
+		for (int i = 0; i < gerstwo.length; i++) {
+			System.out.println(gerstwo[0]);
 
+		}
 		// 9 print the entire array to see if step 8 was correct
 
 		// 10. print the largest number in the array.
+
 	}
 }
